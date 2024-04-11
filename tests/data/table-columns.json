@@ -1,0 +1,167 @@
+[
+            {
+                "title": "信息",
+                "children": [
+                    {
+                        "title": "报告类型",
+                        "dataIndex": "comparison_report_type",
+                        "width": 80
+                    },
+                    {
+                        "title": "产品",
+                        "children": [
+                            {
+                                "title": "产品名称",
+                                "dataIndex": "comparison_product_full_name",
+                                "width": 80
+                            },
+                            {
+                                "title": "产品ID",
+                                "dataIndex": "comparison_product_id",
+                                "width": 80
+                            }
+                        ]
+                    },
+                    {
+                        "title": "对比信息",
+                        "children": [
+                            {
+                                "title": "对比期货账户信息",
+                                "children": [
+                                    {
+                                        "title": "对比期货账户代码",
+                                        "dataIndex": "comparison_future_account_code",
+                                        "width": 160
+                                    },
+                                    {
+                                        "title": "对比期货账户名称",
+                                        "dataIndex": "comparison_future_account_name",
+                                        "width": 210
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "对比算法",
+                                "dataIndex": "comparison_exe_trade_order_type",
+                                "width": 120
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "ID",
+                "dataIndex": "id",
+                "width": 80
+            },
+            {
+                "title": "是否有用",
+                "dataIndex": "is_available",
+                "width": 80
+            },
+            {
+                "title": "基础信息",
+                "children": [
+                    {
+                        "dataIndex": "name",
+                        "title": "交易账户",
+                        "width": 100
+                    },
+                    {
+                        "dataIndex": "product_full_name",
+                        "title": "产品全称",
+                        "width": 180
+                    }
+                ]
+            },
+            {
+                "title": "对比日期数据",
+                "children": [
+                    {
+                        "dataIndex": "comparison_declare_date",
+                        "title": "对比日期",
+                        "width": 80
+                    },
+                    {
+                        "dataIndex": "comparison_report_type",
+                        "title": "报告类型",
+                        "width": 60
+                    },
+                    {
+                        "dataIndex": "comparison_asset",
+                        "title": "账户资金规模（万元）",
+                        "width": 140
+                    },
+                    {
+                        "dataIndex": "comparison_asset_lever",
+                        "title": "杠杆资金规模（万元）",
+                        "width": 140
+                    },
+                    {
+                        "dataIndex": "comparison_asset_lever_source",
+                        "title": "杠杆资金来源",
+                        "width": 100
+                    },
+                    {
+                        "dataIndex": "comparison_main_strategy",
+                        "title": "主策略类型",
+                        "width": 100
+                    },
+                    {
+                        "dataIndex": "comparison_max_declaration_rate",
+                        "title": "账户最高申报速率（笔/秒）",
+                        "width": 80
+                    },
+                    {
+                        "dataIndex": "comparison_max_declaration_count_one_day",
+                        "title": "账户单日最高申报笔数",
+                        "width": 100
+                    }
+                ]
+            },
+            {
+                "title": "最近上报日期数据",
+                "children": [
+                    {
+                        "dataIndex": "declare_date",
+                        "title": "最近上报日期",
+                        "width": 100
+                    },
+                    {
+                        "dataIndex": "report_type",
+                        "title": "报告类型",
+                        "width": 80
+                    },
+                    {
+                        "dataIndex": "asset",
+                        "title": "账户资金规模（万元）",
+                        "width": 160
+                    },
+                    {
+                        "dataIndex": "asset_lever",
+                        "title": "杠杆资金规模（万元）",
+                        "width": 160
+                    },
+                    {
+                        "dataIndex": "asset_lever_source",
+                        "title": "杠杆资金来源",
+                        "width": 100
+                    },
+                    {
+                        "dataIndex": "main_strategy",
+                        "title": "主策略类型",
+                        "width": 100
+                    },
+                    {
+                        "dataIndex": "max_declaration_rate",
+                        "title": "账户最高申报速率（笔/秒）",
+                        "width": 80
+                    },
+                    {
+                        "dataIndex": "max_declaration_count_one_day",
+                        "title": "账户单日最高申报笔数",
+                        "width": 100
+                    }
+                ]
+            }
+        ]
